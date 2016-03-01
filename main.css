@@ -1,26 +1,38 @@
 body {
+	color: white;
+	font-size: 55px;
+	text-align: center;
 	box-sizing: border-box;
-}
-
-ul {
-	float: left;
-	list-style: none;
-	margin: 0;
-	padding: 0;
 }
 
 .wrapper {
 	height: 450px;
-	width: 325px;
+	width: 400px;
 	background: green;
 	margin: auto;
 }
 
-.top_numbers {
+.button {
+	border: 1px solid gray;
+	margin: auto;
+	box-sizing: border-box;
+	width: 25%;
+	height: 20%;
 	float: left;
-	clear: left;
 }
 
-.topnumbers li {
+.clear {
+	border: 1px solid gray;
+	box-sizing: border-box;
 	float: left;
+	width: 25%;
+	height: 20%;
+}
+
+.display {
+	border: 1px solid gray;
+	box-sizing: border-box;
+	float: left;
+	width: 75%;
+	height: 20%;
 }
