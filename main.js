@@ -1,7 +1,7 @@
 var clear, display, one, two, three, four, five, six, seven, eight, nine, zero,
 equals, decimal, addition, subtraction, multiplication, division;
 
-// display = document.querySelector('.display');
+display = document.querySelector('.display');
 one = document.querySelector('.one');
 two = document.querySelector('.two');
 three = document.querySelector('.three')
@@ -23,7 +23,7 @@ equals = document.querySelector('.equals')
 
 function moveToDisplay1(event) {
 	var total = display.textContent + "1";
-	// display.textContent = total;
+	display.textContent = total;
 }
 
 function moveToDisplay2(event) {
